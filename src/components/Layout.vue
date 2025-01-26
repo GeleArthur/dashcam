@@ -138,7 +138,7 @@ async function getTeamInfo(updateRed: boolean) {
 
 			newTeamData.logoFound = false;
 
-			if (teamJson) {
+			if (team.ok) {
 				newTeamData.logoFound = true;
 				newTeamData.logo = teamJson.logo;
 			}
